@@ -38,3 +38,6 @@ class Solution(object):
                 return result_list
                 break
         return result_list
+
+#To try: Alternate approach
+#        return reduce(and_,map(Counter,w)).elements()
